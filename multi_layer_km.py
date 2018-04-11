@@ -22,7 +22,7 @@ from sklearn.preprocessing import normalize
 from cluster_acc import acc
 from sklearn import metrics
 from sklearn.cluster import KMeans
-from DeepLearningTutorials.code.dA import dA
+from Theano_example_code.dA import dA
 from sklearn.preprocessing import scale, normalize
 
 floatX = theano.config.floatX
