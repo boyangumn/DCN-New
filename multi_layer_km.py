@@ -507,7 +507,7 @@ class SdC_KM(SdC):
         """ This function computes the cost and the updates ."""
 
         # note : we sum over the size of a datapoint; if we are using
-        #        minibatches, L will be a vector, withd one entry per
+        #        minibatches, L will be a vector, with one entry per
         #        example in minibatch
         network_output = self.get_output()
         temp = T.pow(center - network_output, 2)
